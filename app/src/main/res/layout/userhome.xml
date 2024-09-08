@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadduser"
+        android:text="Add user" />
+
+    <Button
+        android:id="@+id/btnedituser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit user" />
+
+    <Button
+        android:id="@+id/btndeleteuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete user" />
+
+
+</LinearLayout>
